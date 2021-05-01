@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    height: 50px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 27%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: rgb(0, 119, 255);
+    transition: .5s;
+    border-radius: 10%;
+
+
+}
+
+nav div h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Redressed', cursive;
+    letter-spacing: 2px;
+}
+
+/* Responsive Breakpoint */
+
+/* Ukuran tablet */
+@media screen and (max-width: 768px){
+    nav ul{
+        width: 50%;
+    }
+}
+
+/* Ukuran mobile */
+@media screen and (max-width: 576px){
+    nav ul{
+        width: none;
+    }
+}
+
+/* Gambar awal */
+div img{
+    background-color: rgb(203, 255, 246);
+}
+
+/* Footer */
+/* Huruf */
+
+footer{
+    background-color: black;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.footer-aku{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-aku h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-aku p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.sosial{
+    display: flex;
+    /* list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0; */
+}
+
+div p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
